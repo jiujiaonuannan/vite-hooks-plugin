@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import fib from 'virtual:fib';
+import env from 'virtual:env';
+
+
+console.log(env)
 
 alert(`结果: ${fib(10)}`)
 
